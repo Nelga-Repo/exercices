@@ -14,7 +14,7 @@
         if ($admin == true) {
             echo "Bienvenue admin " . '<a href="https://google.com">Lien admin</a>';
         } else {
-            echo "Vous n'êtes pas admin $admin";
+            echo "Vous n'êtes pas admin";
         }
     ?>
 
