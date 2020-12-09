@@ -1,3 +1,8 @@
+<?php 
+    $name = 'Gérard';
+    $color = "#c42d2d";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,14 +15,7 @@
         }
     </style>
 </head>
-
-<?php 
-    $name = 'Gérard';
-    $color = "#c42d2d";
-?>
-
 <body>
     <h1>Bienvenue <?php echo $name ?></h1>
 </body>
-
 </html>
