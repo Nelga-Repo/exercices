@@ -1,10 +1,6 @@
-<!-- PHP VARIABLES -->
-
 <?php 
     $admin = true;
 ?>
-
-<!-- HTML PAGE -->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,13 +10,14 @@
     <title>Exercice 3</title>
 </head>
 <body>
-    <!-- CHECK ADMIN -->
+    <h1>Exercice 3</h1>
     <?php 
         if ($admin) {
-            echo "<p>Bienvenue admin</p>";
-            echo '<a href="#">Lien admin</a>';
+    ?>         <p>Admin</p> 
+    <?php 
         } else {
-            echo "Vous n'êtes pas admin";
+    ?>         <p>Pas admin</p> 
+    <?php
         }
     ?>
 </body>
