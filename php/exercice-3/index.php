@@ -1,5 +1,5 @@
 <?php 
-    $admin = true;
+    $admin = false;
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php 
-        if ($admin == true) {
+        if ($admin) {
             echo "Bienvenue admin " . '<a href="https://google.com">Lien admin</a>';
         } else {
             echo "Vous n'êtes pas admin";
@@ -21,7 +21,7 @@
     <!-- OU -->
 
     <?php 
-        if ($admin == true) {
+        if ($admin) {
             echo "Bienvenue admin ";
             echo "<br>";
             echo '<a href="https://google.com">Lien admin</a>';
