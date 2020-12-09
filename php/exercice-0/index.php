@@ -14,5 +14,17 @@
         <li><?php echo "Abricot"?></li>
         <li><?php echo "Arold"?></li>
     </ul>
+
+    <!-- Ou bien -->
+    
+    <?php 
+        echo "<ul>
+                <li>Fraise</li>
+                <li>Banane</li>
+                <li>Poire</li>
+                <li>Abricot</li>
+                <li>Arold</li>
+              </ul>"
+    ?>
 </body>
 </html>
