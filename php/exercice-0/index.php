@@ -16,7 +16,7 @@
     </ul>
 
     <!-- Ou bien -->
-    
+
     <?php 
         echo "<ul>
                 <li>Fraise</li>
@@ -25,6 +25,7 @@
                 <li>Abricot</li>
                 <li>Arold</li>
               </ul>"
+        ;
     ?>
 </body>
 </html>
