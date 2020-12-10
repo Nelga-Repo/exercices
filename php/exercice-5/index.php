@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php 
-        for ($i = 0, $j = 1; $i <= 5000; $j >= $i, print '<li>' . $i . '</li>', $i++);
+        for ($i = 0; $i < 5000; $i++) {
+            echo '<li>' . ($i + 1) . '</li>';
+        }
     ?>
 </body>
 </html>
