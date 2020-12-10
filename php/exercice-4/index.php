@@ -10,10 +10,10 @@
     
     echo '<ul>';
     for ($i = 0; $i <= 5000; $i++) {
-        if ($i == 0) {
-            
-        } else if ($i >= 1) {
+        if ($i >= 1) {
             echo "<li>$i</li>";
+        } else {
+        
         }
     }
     echo '</ul>';
