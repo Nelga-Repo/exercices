@@ -1,32 +1,36 @@
 <?php
     $users =[
-        [
-            'name' => 'Leroy',
-            'lastname' => 'Jenkins',
-            'city' => 'Bordeaux'
-        ],
-        [
-            'name' => 'Elfer',
-            'lastname' => 'Vessant',
-            'city' => 'Doliprane'
-        ],
-        [
-            'name' => 'Arold',
-            'lastname' => 'Schwarzenegger',
-            'city' => 'Paris'
-        ],
-        [
-            'name' => 'Shiurgie',
-            'lastname' => 'Esthetic',
-            'city' => 'Prunes-sur-marnes'
-        ],
-        [
-            'name' => 'Elai',
-            'lastname' => 'Phant',
-            'city' => 'Grenoble'
-        ]
-
-        ];
+                [
+                    'name' => 'Leroy',
+                    'lastname' => 'Jenkins',
+                    'city' => 'Bordeaux',
+                    'visited' => ['france', 'Belgique', 'Afrique']
+                ],
+                [
+                    'name' => 'Elfer',
+                    'lastname' => 'Vessant',
+                    'city' => 'Doliprane',
+                    'visited' => ['france', 'Belgique', 'Afrique']
+                ],
+                [
+                    'name' => 'Arold',
+                    'lastname' => 'Schwarzenegger',
+                    'city' => 'Paris',
+                    'visited' => ['france', 'Belgique', 'Afrique']
+                ],
+                [
+                    'name' => 'Shiurgie',
+                    'lastname' => 'Esthetic',
+                    'city' => 'Prunes-sur-marnes',
+                    'visited' => ['france', 'Belgique', 'Afrique']
+                ],
+                [
+                    'name' => 'Elai',
+                    'lastname' => 'Phant',
+                    'city' => 'Grenoble',
+                    'visited' => ['france', 'Belgique', 'Afrique']
+                ]
+            ];
 ?>
 
 <!DOCTYPE html>
@@ -41,6 +45,7 @@
         foreach ($users as $line)
         {
             echo "Je suis " . $line['name'] . " et mon nom est " . $line['lastname'] . ". J'habite " . $line['city'] . '<br>';
+            echo "J'ai déjà visité : " . implode(', ', $line['visited']) . "<br>";
         }
     ?>
 </body>
