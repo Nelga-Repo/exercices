@@ -1,36 +1,36 @@
 <?php
-    $users =[
-                [
-                    'name' => 'Leroy',
-                    'lastname' => 'Jenkins',
-                    'city' => 'Bordeaux',
-                    'visited' => ['france', 'Belgique', 'Afrique']
-                ],
-                [
-                    'name' => 'Elfer',
-                    'lastname' => 'Vessant',
-                    'city' => 'Doliprane',
-                    'visited' => ['france', 'Belgique', 'Afrique']
-                ],
-                [
-                    'name' => 'Arold',
-                    'lastname' => 'Schwarzenegger',
-                    'city' => 'Paris',
-                    'visited' => ['france', 'Belgique', 'Afrique']
-                ],
-                [
-                    'name' => 'Shiurgie',
-                    'lastname' => 'Esthetic',
-                    'city' => 'Prunes-sur-marnes',
-                    'visited' => ['france', 'Belgique', 'Afrique']
-                ],
-                [
-                    'name' => 'Elai',
-                    'lastname' => 'Phant',
-                    'city' => 'Grenoble',
-                    'visited' => ['france', 'Belgique', 'Afrique']
-                ]
-            ];
+    $users = [
+        [
+            'name' => 'Leroy',
+            'lastname' => 'Jenkins',
+            'city' => 'Bordeaux',
+            'visited' => ['france', 'Belgique', 'Afrique']
+        ],
+        [
+            'name' => 'Elfer',
+            'lastname' => 'Vessant',
+            'city' => 'Doliprane',
+            'visited' => ['france', 'Belgique', 'Afrique']
+        ],
+        [
+            'name' => 'Arold',
+            'lastname' => 'Schwarzenegger',
+            'city' => 'Paris',
+            'visited' => ['france', 'Belgique', 'Afrique']
+        ],
+        [
+            'name' => 'Shiurgie',
+            'lastname' => 'Esthetic',
+            'city' => 'Prunes-sur-marnes',
+            'visited' => ['france', 'Belgique', 'Afrique']
+        ],
+        [
+            'name' => 'Elai',
+            'lastname' => 'Phant',
+            'city' => 'Grenoble',
+            'visited' => ['france', 'Belgique', 'Afrique']
+        ]
+    ];
 ?>
 
 <!DOCTYPE html>
