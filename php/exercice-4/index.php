@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice 4</title>
 </head>
-<body>
-    <?php 
+<body> 
     
-    echo '<ul>';
-    for ($i = 0; $i <= 5000; $i++) {
-        if ($i >= 1) {
-            echo "<li>$i</li>";
-        } else {
-        
+    <ul>
+    <?php
+        $i = 0;
+        while ($i < 5000) {
+            $i++;
+            echo "<li>" . $i . "</li>";
         }
-    }
-    echo '</ul>';
-
     ?>
+    </ul>
+
 </body>
 </html>
