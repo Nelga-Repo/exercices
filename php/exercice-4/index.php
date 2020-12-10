@@ -9,8 +9,12 @@
     <?php 
     
     echo '<ul>';
-    for ($i = 1; $i <= 5000; $i++) {
-        echo "<li>$i</li>";
+    for ($i = 0; $i <= 5000; $i++) {
+        if ($i == 0) {
+            
+        } else if ($i >= 1) {
+            echo "<li>$i</li>";
+        }
     }
     echo '</ul>';
 
