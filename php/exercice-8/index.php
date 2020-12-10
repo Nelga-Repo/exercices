@@ -41,7 +41,6 @@
         foreach ($users as $line)
         {
             echo "Je suis " . $line['name'] . " et mon nom est " . $line['lastname'] . ". J'habite " . $line['city'] . '<br>';
-            // Compléter la requête à la place de echo ?
         }
     ?>
 </body>
