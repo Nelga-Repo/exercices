@@ -1,5 +1,5 @@
 <?php
-    $prenom = ['Alice', 'Louis', 'Kevin', 'Roger', 'Remi', 'Léa', 'Justine', 'Philippe', 'Marion', 'Marie', 'Marine'];
+    $name = ['Alice', 'Louis', 'Kevin', 'Roger', 'Remi', 'Léa', 'Justine', 'Philippe', 'Marion', 'Marie', 'Marine'];
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
     <ul>
         <?php
             for ($i = 0; $i < 11; $i++) {
-                echo '<li>' . $prenom[$i] . '</li>';
+                echo '<li>' . $name[$i] . '</li>';
             }
         ?>
     </ul>
