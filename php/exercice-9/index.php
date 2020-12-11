@@ -1,23 +1,7 @@
-<?php 
-    $fruits = [
-        [
-            "name" => "orange",
-            "color" => "orange"
-        ],
-        [
-            "name" => "Banane",
-            "color" => "Jaune"
-        ],
-        [
-            "name" => "Fraise",
-            "color" => "Rouge"
-        ],
-        [
-            "name" => "Papaye",
-            "color" => "Vert"
-        ]
-    ];
+<!-- PHP Function and Variables -->
 
+<?php 
+    $fruits = ["Orange", "Fraise", "Banane", "Poire"];
     $test = "Ma phrase";
     
     function print_rv2($print) {
@@ -32,6 +16,7 @@
     };
 ?>
 
+<!-- HTML PAGE -->
 
 <!DOCTYPE html>
 <html lang="fr">
