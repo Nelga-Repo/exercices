@@ -10,7 +10,7 @@
         echo  "</pre>";
     };
 
-    function getTTCPrice($ttcprice, $tvaValue) {
+    function getTTCPrice($ttcprice, $tvaValue = 20) {
         $ttcprice = $ttcprice + $ttcprice * $tvaValue / 100;
         echo $ttcprice;
     };
