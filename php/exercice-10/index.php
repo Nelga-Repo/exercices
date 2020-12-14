@@ -7,8 +7,10 @@
 </head>
 <body>
     <?php
-        setlocale(LC_TIME, "fr_FR");
-        echo strftime('%A %d %B %G %H:%M:%S');
-    ?> 
+      setlocale(LC_TIME, "fr_FR.utf8");
+      $date = new DateTime('2004-04-16 12:00:00');
+      $date->add(new DateInterval('P435D'));
+      echo $date->format('l d F Y G:i:s');
+    ?>
 </body>
 </html>
